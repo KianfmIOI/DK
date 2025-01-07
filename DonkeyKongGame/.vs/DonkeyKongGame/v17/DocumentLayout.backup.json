@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Coding\\VSC#\\DK81\\DonkeyKongGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|d:\\coding\\vsc#\\dk81\\donkeykonggame\\donkeykonggame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|solutionrelative:donkeykonggame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Coding\\VSC#\\DK81\\DonkeyKongGame\\DonkeyKongGame\\Form1.cs",
+              "RelativeDocumentMoniker": "DonkeyKongGame\\Form1.cs",
+              "ToolTip": "D:\\Coding\\VSC#\\DK81\\DonkeyKongGame\\DonkeyKongGame\\Form1.cs [Design]",
+              "RelativeToolTip": "DonkeyKongGame\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T18:20:15.576Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
