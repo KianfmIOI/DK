@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|d:\\coding\\vsc#\\dk81\\donkeykonggame\\donkeykonggame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|solutionrelative:donkeykonggame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|d:\\coding\\vsc#\\dk81\\donkeykonggame\\donkeykonggame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|solutionrelative:donkeykonggame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Coding\\VSC#\\DK81\\DonkeyKongGame\\DonkeyKongGame\\Form1.cs",
+              "RelativeDocumentMoniker": "DonkeyKongGame\\Form1.cs",
+              "ToolTip": "D:\\Coding\\VSC#\\DK81\\DonkeyKongGame\\DonkeyKongGame\\Form1.cs",
+              "RelativeToolTip": "DonkeyKongGame\\Form1.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADgvxYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T18:35:18.835Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,

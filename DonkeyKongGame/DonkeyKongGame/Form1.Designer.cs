@@ -31,11 +31,19 @@
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
-            pictureBox4 = new PictureBox();
+            platformEnd = new PictureBox();
+            ladder3 = new PictureBox();
+            ladder1 = new PictureBox();
+            ladder2 = new PictureBox();
+            mario = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)platformEnd).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)ladder3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)ladder1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)ladder2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mario).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -50,7 +58,7 @@
             // pictureBox2
             // 
             pictureBox2.BackColor = Color.FromArgb(128, 64, 64);
-            pictureBox2.Location = new Point(353, 302);
+            pictureBox2.Location = new Point(176, 307);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(405, 25);
             pictureBox2.TabIndex = 0;
@@ -67,15 +75,54 @@
             pictureBox3.TabStop = false;
             pictureBox3.Click += pictureBox2_Click;
             // 
-            // pictureBox4
+            // platformEnd
             // 
-            pictureBox4.BackColor = Color.FromArgb(128, 64, 64);
-            pictureBox4.Location = new Point(176, 92);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(405, 25);
-            pictureBox4.TabIndex = 0;
-            pictureBox4.TabStop = false;
-            pictureBox4.Click += pictureBox2_Click;
+            platformEnd.BackColor = Color.FromArgb(128, 64, 64);
+            platformEnd.Location = new Point(318, 91);
+            platformEnd.Name = "platformEnd";
+            platformEnd.Size = new Size(405, 25);
+            platformEnd.TabIndex = 0;
+            platformEnd.TabStop = false;
+            platformEnd.Click += pictureBox2_Click;
+            // 
+            // ladder3
+            // 
+            ladder3.BackColor = Color.Yellow;
+            ladder3.Location = new Point(392, 91);
+            ladder3.Name = "ladder3";
+            ladder3.Size = new Size(25, 110);
+            ladder3.TabIndex = 1;
+            ladder3.TabStop = false;
+            // 
+            // ladder1
+            // 
+            ladder1.BackColor = Color.Yellow;
+            ladder1.Location = new Point(474, 307);
+            ladder1.Name = "ladder1";
+            ladder1.Size = new Size(24, 109);
+            ladder1.SizeMode = PictureBoxSizeMode.StretchImage;
+            ladder1.TabIndex = 1;
+            ladder1.TabStop = false;
+            // 
+            // ladder2
+            // 
+            ladder2.BackColor = Color.FromArgb(255, 255, 128);
+            ladder2.Location = new Point(176, 197);
+            ladder2.Name = "ladder2";
+            ladder2.Size = new Size(15, 114);
+            ladder2.TabIndex = 2;
+            ladder2.TabStop = false;
+            ladder2.Click += ladder2_Click;
+            // 
+            // mario
+            // 
+            mario.BackColor = Color.Blue;
+            mario.Location = new Point(108, 375);
+            mario.Name = "mario";
+            mario.Size = new Size(25, 35);
+            mario.TabIndex = 3;
+            mario.TabStop = false;
+            mario.Click += mario_Click;
             // 
             // Form1
             // 
@@ -83,16 +130,26 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(192, 255, 255);
             ClientSize = new Size(800, 450);
-            Controls.Add(pictureBox4);
+            Controls.Add(mario);
+            Controls.Add(ladder2);
+            Controls.Add(ladder1);
+            Controls.Add(ladder3);
+            Controls.Add(platformEnd);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
+            KeyPreview = true;
             Name = "Form1";
-            Text = "Form1";
+            Text = "DK";
+            KeyDown += Form1_KeyDown;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)platformEnd).EndInit();
+            ((System.ComponentModel.ISupportInitialize)ladder3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)ladder1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)ladder2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mario).EndInit();
             ResumeLayout(false);
         }
 
@@ -101,6 +158,10 @@
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
-        private PictureBox pictureBox4;
+        private PictureBox platformEnd;
+        private PictureBox ladder3;
+        private PictureBox ladder1;
+        private PictureBox ladder2;
+        private PictureBox mario;
     }
 }

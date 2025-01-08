@@ -1,0 +1,17 @@
+D:\Coding\VSC#\DK81\DonkeyKongGame\DonkeyKongGame\bin\Debug\net8.0-windows\DonkeyKongGame.exe
+D:\Coding\VSC#\DK81\DonkeyKongGame\DonkeyKongGame\bin\Debug\net8.0-windows\DonkeyKongGame.deps.json
+D:\Coding\VSC#\DK81\DonkeyKongGame\DonkeyKongGame\bin\Debug\net8.0-windows\DonkeyKongGame.runtimeconfig.json
+D:\Coding\VSC#\DK81\DonkeyKongGame\DonkeyKongGame\bin\Debug\net8.0-windows\DonkeyKongGame.dll
+D:\Coding\VSC#\DK81\DonkeyKongGame\DonkeyKongGame\bin\Debug\net8.0-windows\DonkeyKongGame.pdb
+D:\Coding\VSC#\DK81\DonkeyKongGame\DonkeyKongGame\obj\Debug\net8.0-windows\DonkeyKongGame.Form1.resources
+D:\Coding\VSC#\DK81\DonkeyKongGame\DonkeyKongGame\obj\Debug\net8.0-windows\DonkeyKongGame.csproj.GenerateResource.cache
+D:\Coding\VSC#\DK81\DonkeyKongGame\DonkeyKongGame\obj\Debug\net8.0-windows\DonkeyKongGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\VSC#\DK81\DonkeyKongGame\DonkeyKongGame\obj\Debug\net8.0-windows\DonkeyKongGame.AssemblyInfoInputs.cache
+D:\Coding\VSC#\DK81\DonkeyKongGame\DonkeyKongGame\obj\Debug\net8.0-windows\DonkeyKongGame.AssemblyInfo.cs
+D:\Coding\VSC#\DK81\DonkeyKongGame\DonkeyKongGame\obj\Debug\net8.0-windows\DonkeyKongGame.csproj.CoreCompileInputs.cache
+D:\Coding\VSC#\DK81\DonkeyKongGame\DonkeyKongGame\obj\Debug\net8.0-windows\DonkeyKongGame.sourcelink.json
+D:\Coding\VSC#\DK81\DonkeyKongGame\DonkeyKongGame\obj\Debug\net8.0-windows\DonkeyKongGame.dll
+D:\Coding\VSC#\DK81\DonkeyKongGame\DonkeyKongGame\obj\Debug\net8.0-windows\refint\DonkeyKongGame.dll
+D:\Coding\VSC#\DK81\DonkeyKongGame\DonkeyKongGame\obj\Debug\net8.0-windows\DonkeyKongGame.pdb
+D:\Coding\VSC#\DK81\DonkeyKongGame\DonkeyKongGame\obj\Debug\net8.0-windows\DonkeyKongGame.genruntimeconfig.cache
+D:\Coding\VSC#\DK81\DonkeyKongGame\DonkeyKongGame\obj\Debug\net8.0-windows\ref\DonkeyKongGame.dll
