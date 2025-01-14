@@ -14,13 +14,15 @@ namespace DonkeyKongGame
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            int moving = 5;
+            int moving = 10;
             if (e.KeyCode == Keys.Right)
                 mario.Left += moving;
             else if (e.KeyCode == Keys.Left)
                 mario.Left -= moving;
             else if (e.KeyCode == Keys.Down)
                 mario.Top += moving;
+            else if (e.KeyCode == Keys.Up)
+                mario.Top -= moving;
 
         }
 
