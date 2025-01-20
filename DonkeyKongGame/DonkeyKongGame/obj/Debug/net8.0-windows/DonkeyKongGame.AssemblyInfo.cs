@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DonkeyKongGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6f55f27cd4659e39e96c2cbdbaf82b1f01ba284")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0ef8bd4b71fa9161f7c191b1ee1cabf89cf7dec")]
 [assembly: System.Reflection.AssemblyProductAttribute("DonkeyKongGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DonkeyKongGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

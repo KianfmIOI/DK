@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DKLOAD\\DK\\DK\\DonkeyKongGame\\",
+  "WorkspaceRootPath": "D:\\CODING\\CSProj\\DK81\\DK\\DonkeyKongGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|d:\\dkload\\dk\\dk\\donkeykonggame\\donkeykonggame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|d:\\coding\\csproj\\dk81\\dk\\donkeykonggame\\donkeykonggame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|solutionrelative:donkeykonggame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|D:\\DKLOAD\\DK\\DK\\DonkeyKongGame\\donkeykonggame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|D:\\CODING\\CSProj\\DK81\\DK\\DonkeyKongGame\\donkeykonggame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|solutionrelative:donkeykonggame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|d:\\dkload\\dk\\dk\\donkeykonggame\\donkeykonggame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|d:\\coding\\csproj\\dk81\\dk\\donkeykonggame\\donkeykonggame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|solutionrelative:donkeykonggame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|D:\\DKLOAD\\DK\\DK\\DonkeyKongGame\\donkeykonggame\\startscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|solutionrelative:donkeykonggame\\startscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|d:\\dkload\\dk\\dk\\donkeykonggame\\donkeykonggame\\startscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|d:\\coding\\csproj\\dk81\\dk\\donkeykonggame\\donkeykonggame\\startscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|solutionrelative:donkeykonggame\\startscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|d:\\dkload\\dk\\dk\\donkeykonggame\\donkeykonggame\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|D:\\CODING\\CSProj\\DK81\\DK\\DonkeyKongGame\\donkeykonggame\\startscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|solutionrelative:donkeykonggame\\startscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|d:\\coding\\csproj\\dk81\\dk\\donkeykonggame\\donkeykonggame\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CCA99FA-F561-4736-826B-B41E6DA128E0}|DonkeyKongGame\\DonkeyKongGame.csproj|solutionrelative:donkeykonggame\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -40,9 +40,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DKLOAD\\DK\\DK\\DonkeyKongGame\\DonkeyKongGame\\Program.cs",
+              "DocumentMoniker": "D:\\CODING\\CSProj\\DK81\\DK\\DonkeyKongGame\\DonkeyKongGame\\Program.cs",
               "RelativeDocumentMoniker": "DonkeyKongGame\\Program.cs",
-              "ToolTip": "D:\\DKLOAD\\DK\\DK\\DonkeyKongGame\\DonkeyKongGame\\Program.cs",
+              "ToolTip": "D:\\CODING\\CSProj\\DK81\\DK\\DonkeyKongGame\\DonkeyKongGame\\Program.cs",
               "RelativeToolTip": "DonkeyKongGame\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -51,11 +51,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "StartScreen.cs",
-              "DocumentMoniker": "D:\\DKLOAD\\DK\\DK\\DonkeyKongGame\\DonkeyKongGame\\StartScreen.cs",
+              "DocumentMoniker": "D:\\CODING\\CSProj\\DK81\\DK\\DonkeyKongGame\\DonkeyKongGame\\StartScreen.cs",
               "RelativeDocumentMoniker": "DonkeyKongGame\\StartScreen.cs",
-              "ToolTip": "D:\\DKLOAD\\DK\\DK\\DonkeyKongGame\\DonkeyKongGame\\StartScreen.cs",
+              "ToolTip": "D:\\CODING\\CSProj\\DK81\\DK\\DonkeyKongGame\\DonkeyKongGame\\StartScreen.cs",
               "RelativeToolTip": "DonkeyKongGame\\StartScreen.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAwA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -64,12 +64,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "StartScreen.cs [Design]",
-              "DocumentMoniker": "D:\\DKLOAD\\DK\\DK\\DonkeyKongGame\\DonkeyKongGame\\StartScreen.cs",
+              "DocumentMoniker": "D:\\CODING\\CSProj\\DK81\\DK\\DonkeyKongGame\\DonkeyKongGame\\StartScreen.cs",
               "RelativeDocumentMoniker": "DonkeyKongGame\\StartScreen.cs",
               "ToolTip": "D:\\CODING\\CSProj\\DK81\\DK\\DK\\DonkeyKongGame\\DonkeyKongGame\\StartScreen.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\CODING\\CSProj\\DK81\\DK\\DK\\DonkeyKongGame\\DonkeyKongGame\\StartScreen.cs [Design]",
+              "RelativeToolTip": "..\\DK\\DonkeyKongGame\\DonkeyKongGame\\StartScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T18:28:34.233Z"
             },
@@ -77,9 +77,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\DKLOAD\\DK\\DK\\DonkeyKongGame\\DonkeyKongGame\\Form1.cs",
+              "DocumentMoniker": "D:\\CODING\\CSProj\\DK81\\DK\\DonkeyKongGame\\DonkeyKongGame\\Form1.cs",
               "RelativeDocumentMoniker": "DonkeyKongGame\\Form1.cs",
-              "ToolTip": "D:\\DKLOAD\\DK\\DK\\DonkeyKongGame\\DonkeyKongGame\\Form1.cs [Design]",
+              "ToolTip": "D:\\CODING\\CSProj\\DK81\\DK\\DonkeyKongGame\\DonkeyKongGame\\Form1.cs [Design]",
               "RelativeToolTip": "DonkeyKongGame\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T15:19:52.673Z",
@@ -89,11 +89,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\DKLOAD\\DK\\DK\\DonkeyKongGame\\DonkeyKongGame\\Form1.cs",
+              "DocumentMoniker": "D:\\CODING\\CSProj\\DK81\\DK\\DonkeyKongGame\\DonkeyKongGame\\Form1.cs",
               "RelativeDocumentMoniker": "DonkeyKongGame\\Form1.cs",
-              "ToolTip": "D:\\DKLOAD\\DK\\DK\\DonkeyKongGame\\DonkeyKongGame\\Form1.cs",
+              "ToolTip": "D:\\CODING\\CSProj\\DK81\\DK\\DonkeyKongGame\\DonkeyKongGame\\Form1.cs",
               "RelativeToolTip": "DonkeyKongGame\\Form1.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAgwPwAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAAAB8BAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T18:35:18.835Z",
               "EditorCaption": ""
@@ -102,9 +102,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "D:\\DKLOAD\\DK\\DK\\DonkeyKongGame\\DonkeyKongGame\\Form1.Designer.cs",
+              "DocumentMoniker": "D:\\CODING\\CSProj\\DK81\\DK\\DonkeyKongGame\\DonkeyKongGame\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "DonkeyKongGame\\Form1.Designer.cs",
-              "ToolTip": "D:\\DKLOAD\\DK\\DK\\DonkeyKongGame\\DonkeyKongGame\\Form1.Designer.cs",
+              "ToolTip": "D:\\CODING\\CSProj\\DK81\\DK\\DonkeyKongGame\\DonkeyKongGame\\Form1.Designer.cs",
               "RelativeToolTip": "DonkeyKongGame\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

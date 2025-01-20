@@ -16,42 +16,38 @@ namespace DonkeyKongGame
         int score = 0;
         int bestScore = 0;
         int marioSpeed = 7;
-        int Bar1S = 2, Bar2S = 2, Bar3S = 2, Bar4S = 2, Bar5S = 2, Bar6S = 2, Bar7S = 2;
         int marioClimb = 4;
         int jumpSpeed = 10;
-        int barrellGravity = 10;
         int force = 0;
         double time = 60.0;
         int formHeight = 810;
+        int counter = 0;
         public Form1()
         {
             InitializeComponent();
-            BarrelTimer.Interval = 1000; // 1 second
-            BarrelTimer.Tick += createBarrel;
-            BarrelTimer.Start();
         }
-        public void createBarrel(object sender, EventArgs e)
-        {
-            barrells newBarrel = new barrells(this);
-            barrellsList.Add(newBarrel);
-        }
+
         private void mainGameTime(object sender, EventArgs e)
         {
+            counter++;
+            if (counter % 60 == 0)
+            {
+                barrells newBarrel = new barrells(this);
+                barrellsList.Add(newBarrel);
+            }
             foreach (var barrel in barrellsList)
             {
                 barrel.movement();
-                barrel.gravity();
-                if (barrel.Barrells.Location.Y > formHeight)
-                    this.Controls.Remove(barrel.Barrells);
+                barrel.falling();
                 if (barrel.marioCollide(mario))
                 {
                     gameTimer.Stop();
-                    BarrelTimer.Stop();
-                    barrellsList.Clear();
                     isGameOver = true;
                     ScoreTXT.Text = ($"GAME\nscore: {score}\nbest score: {bestScore}");
 
                 }
+                if (barrel.inTheAbyss())
+                    barrellsList.Remove(barrel);
             }
             TIMELable.Text = "0:" + (int)time;
             time -= 0.03;
@@ -94,10 +90,6 @@ namespace DonkeyKongGame
                     jumpSpeed = 10;
                 mario.Top += jumpSpeed;
             }
-            Bar1.Left += Bar1S;
-
-            Bar1.Top += barrellGravity;
-
 
 
             foreach (Control x in this.Controls)
@@ -112,8 +104,6 @@ namespace DonkeyKongGame
                             onGround = true;
                             force = 5;
                         }
-
-
 
 
                         x.BringToFront();
@@ -191,7 +181,7 @@ namespace DonkeyKongGame
         }
         private void removeBarrels()
         {
-            foreach(var barrels in barrellsList.ToArray())
+            foreach (var barrels in barrellsList.ToArray())
             {
                 this.Controls.Remove(barrels.Barrells);
                 barrels.Barrells.Dispose();
@@ -212,6 +202,7 @@ namespace DonkeyKongGame
         }
         public void restartGame()
         {
+            removeBarrels();
             time = 60;
             goUp = false;
             goDown = false;
@@ -236,7 +227,6 @@ namespace DonkeyKongGame
             mario.Top = 448;
             mario.Left = 169;
             gameTimer.Start();
-            BarrelTimer.Start();
         }
         private void pictureBox2_Click(object sender, EventArgs e)
         {
@@ -245,17 +235,23 @@ namespace DonkeyKongGame
         class barrells
         {
             Form main_form;
-            int[] platsArr = new int[] { 27, 43, 162, 396, 519, 642 };
-            bool movement_right = false;
+            BadImageFormatException badImageFormatException;
+            bool movement_right = true;
             PictureBox barrels = new PictureBox();
-            public barrells(Form main_form)
+
+            public barrells(Form main_form,int BarrelX = 450,int BarrelY = 10)
             {
+                Barrells = new PictureBox();
+
                 Barrells.BackColor = Color.DarkSalmon;
                 Barrells.Size = new System.Drawing.Size(12, 12);
-                Barrells.Location = new System.Drawing.Point(470, 18);
-                Barrells.Tag = "barrell";
+                Barrells.Location = new System.Drawing.Point(BarrelX, BarrelY);
+                Barrells.Tag = "Barrell";
                 this.main_form = main_form;
+
+                // Add it to the form controls
                 main_form.Controls.Add(Barrells);
+
             }
             public PictureBox Barrells { get; private set; }
 
@@ -265,7 +261,7 @@ namespace DonkeyKongGame
                 {
                     movement_right = true;
                 }
-                else if (Barrells.Location.X > main_form.Width && movement_right)
+                else if (Barrells.Location.X > 524 && movement_right)
                 {
                     movement_right = false;
                 }
@@ -279,31 +275,30 @@ namespace DonkeyKongGame
                     Barrells.Location = new System.Drawing.Point(Barrells.Location.X - 2, Barrells.Location.Y);
                 }
             }
-            public void gravity()
+            public void falling()
             {
-                //Barrells.Location = new System.Drawing.Point(Barrells.Location.X, Barrells.Location.Y + 10);
-                if (platsArr[checkPlat()] - Barrells.Location.Y < 1)
-                    Barrells.Location = new System.Drawing.Point(Barrells.Location.X, platsArr[checkPlat()]-Barrells.Size.Height);
-                else
-                    Barrells.Location = new System.Drawing.Point(Barrells.Location.X, Barrells.Location.Y + 5);
-            }
-            public int checkPlat()
-            {
-                int platNum = 0;
-                for (int i = 1; i <= 5; i++)
+                foreach (Control x in main_form.Controls)
                 {
-                    if (Barrells.Location.Y > platsArr[i - 1] && Barrells.Location.Y <= platsArr[i])
-                    {
-                        platNum = i;
-                        break;
-                    }
+                    if (x is PictureBox)
+                        if ((string)x.Tag == "Ground")
+                            if (Barrells.Bounds.IntersectsWith(x.Bounds))
+                            {
+                                if ((Barrells.Left <= x.Left || Barrells.Right >= x.Right) && Barrells.Right < main_form.Width-20)
+                                {
+                                    Barrells.Location = new System.Drawing.Point(Barrells.Location.X+10, Barrells.Location.Y+100);
+                                }
+                                break;
+                            }
 
                 }
-                return platNum;
             }
             public bool marioCollide(PictureBox mario)
             {
                 return (Barrells.Bounds.IntersectsWith(mario.Bounds));
+            }
+            public bool inTheAbyss()
+            {
+                return (Barrells.Location.Y > 620);
             }
 
         }
